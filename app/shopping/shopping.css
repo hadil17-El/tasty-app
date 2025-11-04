@@ -1,0 +1,118 @@
+.shopping-page {
+    min-height: 100vh;
+    background-color: #0f1114;
+    color: #fff;
+    padding: 20px 40px;
+}
+.back-shop{
+    display: flex;
+    justify-content: right;
+    color: #f4b860;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 1rem;
+}
+.shopping-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4b860;
+}
+.back-btn {
+    background: none;
+    border: none;
+    color: #f4b860;
+    cursor: pointer;
+}
+.shopping-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.progress-bar {
+    margin-top: 20px;
+    background: #1a1c1f;
+    height: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #f4b860, #f7c77b);
+    transition: width 0.4s ease;
+}
+.progress-text {
+    margin-top: 8px;
+    color: #f4b860;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.categories-grid{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding-bottom: 6rem; /* spazio per la navbar */
+}
+.category-list {
+    list-style: none;
+}
+.circle {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    background: transparent;
+    cursor: pointer;
+}
+.circle.filled{
+    background-color: #f4b860;
+    box-shadow: 0 0 0 2px #f4b860;
+}
+.add-item{
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #fff;
+    border:1px solid #f4b860;
+    border-radius: 15px;
+    padding: 8px 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-item:hover{
+    background-color: #f4b860;
+
+}
+.add-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.6rem;
+}
+.add-form .input{
+    background-color: transparent;
+    border: 1px solid #f4b860;
+    border-radius: 10px;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+}
+.add-form .btn-form {
+    background: linear-gradient(to right #0f1114, #f4b860);
+    border: none;
+    color: #0f1114;
+    padding: 0.4rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.add-form .btn-form:hover {
+    background: linear-gradient(to right, #f4b860, #d69d4b);
+}

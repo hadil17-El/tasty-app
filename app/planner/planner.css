@@ -1,0 +1,138 @@
+.planner-container {
+    background-color: #0f1114;
+    color: #fff;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: Poppins, sans-serif;
+}
+.back-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.back-btn:hover {
+    transform: scale(1.5);
+}
+.planner-title {
+      color: #f4b860;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.calendar-wrapper {
+    background: linear-gradient(101deg, #0f1114, #f4b860);
+    border-radius: 24px;
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.react-calendar {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+.react-calendar__tile--now {
+    background: #0f1114;
+    color: #f4b860;
+    border-radius: 100%;
+}
+.react-calendar__tile--active {
+    background: #f4b860 !important;
+    color: #0f1114 !important;
+    border-radius: 100% !important;
+}
+.tasks-section {
+    margin-top: 40px;
+    background: linear-gradient(101deg,#0f1114,#f4b860);
+    border-radius: 20px;
+    padding: 30px;
+}
+.task-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-radius: 12px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+}
+.tasks-header {
+ text-align: end;
+    background: linear-gradient(101deg, #0f1114, #f4b860);
+    border-radius: 9999px;
+    align-items: center;
+    color: #0f1114;
+    max-width: 23%;
+    margin: 42px;
+    padding: 5px 40px;
+}
+.list-header{
+        text-align: center;
+    font-weight: 100;
+    font-size: 23px;
+    margin: 0;
+}
+.add-btn {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+    border-radius: 53%;
+    position: relative;
+    left: 67rem;
+    padding: 3px;
+    bottom: 1rem;
+    cursor: pointer;
+        display: flex
+;
+    justify-content: center;
+    transition: background-color 0.5s 
+ease;
+}
+.add-btn:hover {
+    background-color: #f4b860;
+}
+
+.show-input {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.new-task {
+    background-color: transparent;
+    border: 1px solid #0f1114;
+    border-radius: 6px;
+    padding: 1rem;
+   
+}
+.add-btn2{
+      margin-left: 1rem;
+    padding: 8px 3rem;
+    background-color: #f4b860;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid #0f1114;
+    transition: background-color 0.3s ease;
+}
+.add-btn2:hover{
+    background-color: #15120d;
+    color: #fff;
+}
+.remove-btn {
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    color: #f4b860;
+    transition: color 0.3s ease;
+}
+.remove-btn:hover {
+    color: #0f1114;
+}
+.has-task {
+    background-color: #0f1114 !important;
+    color: #f4b860 !important;
+    border-radius: 50%;
+}

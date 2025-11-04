@@ -1,0 +1,60 @@
+.launch-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   /* background: radial-gradient(circle at top, #1a1c1f, #0f1114 70%);
+   */
+   color: #f4b860;
+    text-align: center;
+    overflow: hidden;
+}
+.t-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.t-image{
+    max-width: 14rem;
+    height: auto;
+}
+.t-title{
+       color: #f6b962;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+    letter-spacing: 0.5rem;
+
+}
+.swipe-btn {
+  
+    padding: 14px 38px;
+    border: none;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, rgba(15,17,20,0) 0%,#f4b860 100%);
+    color: #0f1114;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.swipe-btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(244,184,96,0.3);
+    background: linear-gradient(196deg, rgba(15,17,20,0)  0%, #f4b860  100%);
+    
+}
+@media(max-width: 768px){
+    .t-title{
+        font-size: 2.5rem;
+        letter-spacing: 0.3rem;
+    }
+    .t-image{
+        max-width: 8rem;
+    }
+}
+

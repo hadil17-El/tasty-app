@@ -1,0 +1,44 @@
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-title {
+    color: #f4b860;
+    font-size: 4.5rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+.create-btn,.sign-btn{
+    
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.create-btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.sign-btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem 3.5rem;
+    transition: all 0.3s ease;
+}
+.sign-btn:hover{
+    color: black;
+    background-color: #fff;
+}
+.t-welcome {
+   position: relative;
+   right: 1rem;
+}

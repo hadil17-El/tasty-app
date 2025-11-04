@@ -1,0 +1,119 @@
+.back-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+.back-btn:hover {
+    transform: scale(1.5);
+}
+.bookmark-title{
+    color: #f4b860;
+    text-align: center;
+    text-decoration: overline;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.bookmark-page{
+    min-height: 100vh;
+    padding: 1rem;
+}
+.bookmark-list{
+        display: flex
+;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2.5rem;
+}
+.bookmark-recipe{
+    cursor: pointer;
+    background-color: #1a1c1f;
+    border-radius: 1rem;
+    padding: 2rem;
+    transition: all .25s 
+ease-in-out;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+}
+.bookmark-recipe:hover{
+transform: scale(1.03);
+box-shadow: 0 4px 20px rgba(244,184,96, 0.3);
+}
+.bookmark-image {
+    margin-bottom: 0.75rem;
+}
+
+.b-header{
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.b-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.b-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f4b860;
+}
+.b-time {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+.remove-bookmark{
+    background: none;
+    border: 1px solid #f4b860;
+    color: #f4b860;
+    border-radius: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+.remove-bookmark:hover{
+    background-color: #f4b860;
+    color: #1a1c1f;
+}
+.b-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.b-details {
+    flex: 1;
+    text-align: left;
+}
+.passaggi-title,.ing-title{
+    color: #f4b860;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+ul,ol{
+    margin-left: 1rem;
+}
+li{
+    color: #ccc;
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+}
+@media(min-width: 768px){
+    .bookmark-recipe {
+        padding: 3rem;
+    }
+    .b-title {
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 425px) {
+    .b-content{
+        display: block;
+    }
+}

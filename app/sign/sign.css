@@ -1,0 +1,46 @@
+.sign-title{
+        font-weight: 100;
+    color: #f4b860;
+    justify-content: center;
+    display: flex
+;
+    font-size: 3rem;
+}
+.sign-subtitle{
+    font-size: 1rem;
+    font-weight: 100;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+.sign-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.input {
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    max-width: 45rem;
+    margin-left: 1rem;
+
+}
+.btn-sign {
+        color: rgb(46 46 46 / 72%);
+    background-color: #f4b860;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.btn-sign:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    
+}
