@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 import { User } from "lucide-react";
 import Navbar from "../components/Navbar"; 
 import SmartSuggest from "../components/SmartSuggest";
-import MealGenerator from "../components/MealGenerator";
+
 export default function HomePage() { 
   const pathname = usePathname() 
   const cuisines = ["All", "Italian", "Thai", "Indian", "Middle east"]; 
@@ -148,7 +148,7 @@ export default function HomePage() {
                                                    <Navbar/>
                                                     
                                   <SmartSuggest />
-                                  <MealGenerator />
+                                 
                                  
                           </div>
                                                      
