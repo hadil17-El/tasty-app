@@ -1,7 +1,6 @@
 "use client"
 import { useState } from "react"
 import Image from "next/image"
-import { Link } from "lucide-react"
 import { recipes } from "../data/recipes"
 import Link from "next/link"
 import { div, p } from "framer-motion/client"
