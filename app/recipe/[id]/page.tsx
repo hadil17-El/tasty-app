@@ -45,7 +45,7 @@ const recipe = recipes.find((r)=> r.id === recipeId)
                             <Star
                                 key={i}
                                 size={18}
-                                fill={i <Math.floor(recipe.rating)? "#f4b860" : "none"}
+                                fill={i <Math.floor(recipe.rating ?? 0)? "#f4b860" : "none"}
                                 stroke="#f4b860"
                                 />
                         ))}
