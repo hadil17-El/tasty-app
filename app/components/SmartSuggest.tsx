@@ -3,6 +3,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { Link } from "lucide-react"
 import { recipes } from "../data/recipes"
+import Link from "next/link"
 import { div, p } from "framer-motion/client"
 import "./SmartSuggest.css"
 type Recipe = {
@@ -107,7 +108,7 @@ export default function SmartSuggest() {
                         </p>
                     ) : (
                         results.map((r: any) => (
-                            <div key={r.id} href={`/recipe/${r.id}`} className="result-card">
+                            <Link key={r.id} href={`/recipe/${r.id}`} className="result-card">
                                 <Image
                                     src={r.image}
                                     alt={r.title}
@@ -121,7 +122,7 @@ export default function SmartSuggest() {
                                         Match: {recipeScore(r, lastTerms)}
                                     </p>
                                 </div>
-                            </div>
+                            </Link>
                         ))
                     )
                 }
