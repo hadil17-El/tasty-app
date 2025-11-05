@@ -61,7 +61,7 @@ http://localhost:3000
 
 Il progetto è distribuito su Vercel:
 
-🔗 https://tasty-app.vercel.app
+🔗 [https://tasty-app.vercel.app](https://tasty-app-dmx2.vercel.app/)
 
 🧱 Tecnologie utilizzate
 React
