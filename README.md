@@ -64,3 +64,25 @@ Il progetto è distribuito su Vercel:
 🔗 https://tasty-app.vercel.app
 
 🧱 Tecnologie utilizzate
+React
+Css
+Typescript
+Vercel
+Lucide-react / React-icons
+
+
+Idee future
+
+Aggiungere un AI Cooking Assistant per suggerire ricette in base agli ingredienti disponibili.
+
+Supporto multilingua (italiano, inglese, francese).
+
+Sincronizzazione cloud delle ricette preferite.
+
+Modalità scura/chiara automatica.
+
+🧑‍💻 HADIL
+
+💼 GitHub: https://github.com/hadil17-El
+
+📧 hadileljeddi@gmail.com
